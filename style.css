@@ -34,7 +34,7 @@ body {
 }
 
 .hero-section {
-  background-image: url("images.jpg");
+  background-image: url("./images.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -152,7 +152,7 @@ body {
 .itinerary-section {
   background:
     linear-gradient(rgba(0, 55, 105, 0.82), rgba(0, 55, 105, 0.82)),
-    url("baibien.webp") center/cover no-repeat;
+    url("./baibien.webp") center/cover no-repeat;
 }
 
 /* 9. CHÂN TRANG */
