@@ -50,6 +50,9 @@
                 <a class="nav-link" href="#khach-san">Khách sạn</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#danh-gia">Đánh giá</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#lich-trinh">Lên lịch trình</a>
               </li>
             </ul>
@@ -274,70 +277,176 @@
       </section>
 
       <!-- PHẦN KHÁCH SẠN -->
-      <section id="khach-san" class="py-5">
-        <div class="container text-center">
-          <h2 class="fw-bold text-primary">Khách Sạn & Nghỉ Dưỡng</h2>
-          <p class="text-muted mb-4">
-            Lựa chọn nơi lưu trú phù hợp để chuyến đi thêm thoải mái.
-          </p>
-
-          <div class="row g-4">
-            <div class="col-md-4">
-              <div class="stay-box p-4 rounded h-100">
-                <i class="fa-solid fa-hotel fa-2x text-primary mb-3"></i>
-                <h5 class="fw-bold">Khách sạn gần biển</h5>
-                <p class="mb-0">
-                  Thuận tiện đi bộ ra bãi tắm và khám phá các nhà hàng địa
-                  phương.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="stay-box p-4 rounded h-100">
-                <i class="fa-solid fa-people-roof fa-2x text-primary mb-3"></i>
-                <h5 class="fw-bold">Nghỉ dưỡng gia đình</h5>
-                <p class="mb-0">
-                  Không gian nghỉ ngơi phù hợp cho gia đình và nhóm bạn đi du
-                  lịch.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="stay-box p-4 rounded h-100">
-                <i class="fa-solid fa-wallet fa-2x text-primary mb-3"></i>
-                <h5 class="fw-bold">Lựa chọn tiết kiệm</h5>
-                <p class="mb-0">
-                  Tham khảo nhiều mức giá và tiện ích để chủ động ngân sách
-                  chuyến đi.
-                </p>
-              </div>
+      
+<!-- PHẦN KHÁCH SẠN -->
+<section id="khach-san" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Khách Sạn & Nghỉ Dưỡng</h2>
+      <p class="text-muted">
+        Lựa chọn nơi lưu trú phù hợp cho chuyến đi Cửa Lò
+      </p>
+    </div>
+  
+      <div class="row g-4">
+        <!-- Khách sạn 1 -->
+        <div class="col-md-4">
+          <div class="card hotel-card h-100 shadow-sm">
+            <img
+              src="image/khachsan1.jpg"
+              class="hotel-image"
+              alt="Khách sạn gần biển"
+            />
+            <div class="card-body">
+              <h5 class="fw-bold">Khách Sạn Gần Biển</h5>
+              <p class="text-warning mb-2">
+                ★★★★★ <span class="text-muted">(4.8/5)</span>
+              </p>
+              <p class="text-muted">
+                Vị trí thuận tiện, dễ dàng đi bộ ra bãi biển và thưởng thức
+                hải sản địa phương.
+              </p>
+              <p class="hotel-price">Từ 600.000đ / đêm</p>
+              <a href="#lich-trinh" class="btn btn-primary w-100">
+                Xem chi tiết
+              </a>
             </div>
           </div>
         </div>
-      </section>
+  
+        <!-- Khách sạn 2 -->
+        <div class="col-md-4">
+          <div class="card hotel-card h-100 shadow-sm">
+            <img
+              src="image/khachsan2.jpg"
+              class="hotel-image"
+              alt="Khu nghỉ dưỡng"
+            />
+            <div class="card-body">
+              <h5 class="fw-bold">Khu Nghỉ Dưỡng Gia Đình</h5>
+              <p class="text-warning mb-2">
+                ★★★★★ <span class="text-muted">(4.7/5)</span>
+              </p>
+              <p class="text-muted">
+                Không gian nghỉ ngơi thoải mái, phù hợp với gia đình và nhóm bạn.
+              </p>
+              <p class="hotel-price">Từ 900.000đ / đêm</p>
+              <a href="#lich-trinh" class="btn btn-primary w-100">
+                Xem chi tiết
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Khách sạn 3 -->
+        <div class="col-md-4">
+          <div class="card hotel-card h-100 shadow-sm">
+            <img
+              src="image/khachsan3.jpg"
+              class="hotel-image"
+              alt="Khách sạn tiết kiệm"
+            />
+            <div class="card-body">
+              <h5 class="fw-bold">Khách Sạn Tiết Kiệm</h5>
+              <p class="text-warning mb-2">
+                ★★★★☆ <span class="text-muted">(4.5/5)</span>
+              </p>
+              <p class="text-muted">
+                Chi phí hợp lý, đáp ứng nhu cầu nghỉ ngơi khi du lịch biển.
+              </p>
+              <p class="hotel-price">Từ 350.000đ / đêm</p>
+              <a href="#lich-trinh" class="btn btn-primary w-100">
+                Xem chi tiết
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
       <!-- PHẦN LÊN LỊCH TRÌNH -->
-      <section id="lich-trinh" class="py-5 itinerary-section text-white">
-        <div class="container text-center">
-          <h2 class="fw-bold mb-3">Lên Lịch Trình Cho Chuyến Đi</h2>
+      
+<!-- PHẦN ĐÁNH GIÁ TỪ DU KHÁCH -->
+<section id="danh-gia" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Đánh Giá Từ Du Khách</h2>
+      <p class="text-muted">
+        Những cảm nhận sau chuyến đi khám phá biển Cửa Lò
+      </p>
+    </div>
 
-          <p class="mb-4">
-            Lên kế hoạch trước để tận hưởng trọn vẹn biển xanh, ẩm thực và các
-            điểm tham quan.
+    <div class="row g-4">
+      <!-- Đánh giá 1 -->
+      <div class="col-md-4">
+        <div class="review-card p-4 rounded shadow-sm h-100">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="image/khachhang1.jpg"
+              class="review-avatar me-3"
+              alt="Ảnh đại diện du khách"
+            />
+            <div>
+              <h5 class="fw-bold mb-1">Nguyễn Minh Anh</h5>
+              <p class="text-muted small mb-0">Du khách</p>
+            </div>
+          </div>
+          <p class="text-warning mb-2">★★★★★</p>
+          <p class="mb-0">
+            “Bãi biển đẹp, không khí trong lành. Hải sản ngon và chuyến đi
+            để lại nhiều kỷ niệm đáng nhớ.”
           </p>
-
-          <a
-            class="btn btn-warning btn-lg fw-bold"
-            href="mailto:info@cualotravel.example"
-          >
-            <i class="fa-solid fa-calendar-check me-2"></i>
-            Liên hệ tư vấn
-          </a>
         </div>
-      </section>
-    </main>
+      </div>
+
+      <!-- Đánh giá 2 -->
+      <div class="col-md-4">
+        <div class="review-card p-4 rounded shadow-sm h-100">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="image/khachhang2.jpg"
+              class="review-avatar me-3"
+              alt="Ảnh đại diện du khách"
+            />
+            <div>
+              <h5 class="fw-bold mb-1">Trần Quốc Bảo</h5>
+              <p class="text-muted small mb-0">Du khách</p>
+            </div>
+          </div>
+          <p class="text-warning mb-2">★★★★★</p>
+          <p class="mb-0">
+            “Cảnh biển rất đẹp, người dân thân thiện. Đây là địa điểm phù hợp
+            để nghỉ ngơi cùng gia đình.”
+          </p>
+        </div>
+      </div>
+
+      <!-- Đánh giá 3 -->
+      <div class="col-md-4">
+        <div class="review-card p-4 rounded shadow-sm h-100">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="image/khachhang3.jpg"
+              class="review-avatar me-3"
+              alt="Ảnh đại diện du khách"
+            />
+            <div>
+              <h5 class="fw-bold mb-1">Lê Thu Hà</h5>
+              <p class="text-muted small mb-0">Du khách</p>
+            </div>
+          </div>
+          <p class="text-warning mb-2">★★★★★</p>
+          <p class="mb-0">
+            “Giao diện giới thiệu các điểm tham quan rõ ràng, dễ tìm hiểu.
+            Mình rất thích trải nghiệm du lịch biển Cửa Lò.”
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- BƯỚC 6: CHÂN TRANG -->
     <footer class="text-white bg-dark">
