@@ -34,7 +34,7 @@ body {
 }
 
 .hero-section {
-  background-image: url("./images.jpg");
+  background-image: url("../image/images.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -152,7 +152,7 @@ body {
 .itinerary-section {
   background:
     linear-gradient(rgba(0, 55, 105, 0.82), rgba(0, 55, 105, 0.82)),
-    url("./baibien.webp") center/cover no-repeat;
+    url("image/baibien.webp") center/cover no-repeat;
 }
 
 /* 9. CHÂN TRANG */
@@ -214,7 +214,6 @@ footer {
   }
 }
 
-
 /* =========================
    KHÁCH SẠN
    ========================= */
@@ -223,7 +222,9 @@ footer {
   border: none;
   border-radius: 12px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .hotel-card:hover {
@@ -251,7 +252,9 @@ footer {
 .review-card {
   background: #fff;
   border: 1px solid #e9ecef;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .review-card:hover {
@@ -278,4 +281,3 @@ footer {
     padding: 20px !important;
   }
 }
-
